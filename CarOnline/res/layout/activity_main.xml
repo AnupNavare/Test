@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/txtSelectLoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:text="@string/spinner_title"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        />
+    
+   <Spinner
+        android:id="@+id/spinnerSelectLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:prompt="@string/spinner_title"
+        android:layout_marginTop="14dp"
+        android:layout_toRightOf="@id/txtSelectLoc"
+        android:layout_marginLeft="10dp"
+        
+    />
+   
+   <Button 
+       android:id="@+id/btnSearchCars"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/button_title"
+       
+       android:layout_centerVertical="true"
+       android:layout_centerHorizontal="true"
+       />
+
+</RelativeLayout>

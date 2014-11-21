@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent" >
+    
+	<ImageView
+	    android:id="@+id/photoPreview_addPhotoXml"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:contentDescription="@string/imagePreview_addPhotoA" 
+	    />
+
+    <EditText
+	    android:id="@+id/addCaption_addPhotoXml"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:inputType="textCapWords"
+	    android:layout_below="@id/photoPreview_addPhotoXml" 
+	    android:layout_centerHorizontal="true"
+	    android:maxLength="50"
+	    android:maxLines="5"/>
+		
+	
+	<Button
+	    android:id="@+id/takePhoto_addPhotoXml"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/addCaption_addPhotoXml"
+	    android:layout_marginTop="100dp"
+	    
+	    android:text="@string/CapturePhoto_addPhotoA"
+	    
+	    />
+	
+	<Button
+	    android:id="@+id/savePhoto_addPhotoXml"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/takePhoto_addPhotoXml"
+	    android:layout_marginTop="20dp"
+	    android:text="@string/SavePhoto_addPhotoA"
+	    
+	    />
+	
+</RelativeLayout>

@@ -1,0 +1,178 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <RelativeLayout 
+        android:id="@+id/relativeLayout1"
+     	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+       
+        android:layout_marginTop="10dip">
+        
+    	    	<ImageView
+    	    android:id="@+id/MainAXmlDistanceIcon"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:contentDescription="@string/distanceIcon"
+    	    />
+    	    	
+    	    	    	
+    		<TextView
+        android:id="@+id/MainAXmlDistanceTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/MainAXmlDistanceIcon"
+        />
+    	    	
+    		<TextView
+        android:id="@+id/MainAXmlDistanceLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:textSize="10sp"
+        android:layout_below="@id/MainAXmlDistanceTxt"
+        />
+    	
+    
+    	    		    
+    </RelativeLayout>
+
+    <RelativeLayout 
+        android:id="@+id/relativeLayout2"
+     	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_toRightOf="@id/relativeLayout1"
+    	android:layout_alignParentRight="true"
+    	android:layout_marginLeft="50dip"
+        android:layout_marginTop="10dip">
+        
+    	    	<ImageView
+    	    android:id="@+id/MainAXmlTimeIcon"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:contentDescription="@string/distanceIcon"
+        	 
+        	
+    	    />
+    	    	
+    	    	    	
+    		<TextView
+        android:id="@+id/MainAXmlTimeTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/MainAXmlTimeIcon"
+        />
+    	    	
+    		<TextView
+        android:id="@+id/MainAXmlTimeLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:textSize="10sp"
+        android:layout_below="@id/MainAXmlTimeTxt"
+        />
+    	
+    
+    	    		    
+    </RelativeLayout>
+    
+    <RelativeLayout 
+        android:id="@+id/relativeLayout3"
+     	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_below="@id/relativeLayout1"
+	>        
+    	    	<ImageView
+    	    android:id="@+id/MainAXmlCaloriesIcon"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginTop="20dip"
+        	android:contentDescription="@string/caloriesBurnedIcon"
+    	    />
+    	    	    	
+    		<TextView
+        android:id="@+id/MainAXmlCaloriesTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/MainAXmlCaloriesIcon"
+        />
+    	    	
+    		<TextView
+    	android:id="@+id/MainAXmlCaloriesLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dip"
+        android:textSize="10sp"
+        android:layout_below="@id/MainAXmlCaloriesTxt"
+        />
+    
+    </RelativeLayout>
+    
+    <RelativeLayout 
+        android:id="@+id/relativeLayout4"
+     	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_below="@id/relativeLayout2"
+    	android:layout_marginLeft="120dip"
+	>        
+    	    	<ImageView
+    	    android:id="@+id/MainAXmlStepIcon"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginTop="20dip"
+        	android:contentDescription="@string/stepsCounted"
+    	    />
+    	    	    	
+    		<TextView
+        android:id="@+id/MainAXmlStepTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/MainAXmlStepIcon"
+        />
+    	    	
+    		<TextView
+        android:id="@+id/MainAXmlStepLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dip"
+        android:textSize="10sp"
+        android:layout_below="@id/MainAXmlStepTxt"
+        />
+    
+    </RelativeLayout>
+    
+    
+    <Button
+        android:id="@+id/getStartLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/getLocation"
+        android:layout_marginTop="250dp"
+    ></Button>
+    
+    <Button
+        android:id="@+id/getStopLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/getStopLocation"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="40dp"
+        
+        android:layout_toRightOf="@id/getStartLocation"
+    ></Button>
+    
+    <TextView
+   		android:id="@+id/showHistory"
+   		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/history"
+        android:layout_marginTop="410dp"
+        android:layout_marginLeft="35dp"/>
+    
+</RelativeLayout>

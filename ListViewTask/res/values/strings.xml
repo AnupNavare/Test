@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ListViewTask</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="sortByTitle">Sort by Title</string>
+    <string name="date_created_oldest">Sort by Oldest Date</string>
+    <string name="date_created_latest">Sort by Latest Date</string>
+    <string name="title">Title :: </string>
+    <string name="text">Text :: </string>
+    <string name="date">Date :: </string>
+
+</resources>

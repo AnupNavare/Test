@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/event">
+    
+    <TextView
+        android:id="@+id/cityLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtViewLbl"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="70dp"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        />
+    
+    <EditText
+        android:id="@+id/cityTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/cityLbl"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="50dp"
+        android:inputType="text"
+        
+        />
+    
+    <Button
+        android:id="@+id/searchBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/searchBtn"
+        android:layout_below="@id/cityLbl"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="110dp"
+        />
+
+</RelativeLayout>

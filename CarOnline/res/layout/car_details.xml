@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:shrinkColumns="*"  
+    android:stretchColumns="*" 
+	>
+	
+    <TableRow
+         android:layout_height="wrap_content"
+         android:layout_width="fill_parent"
+         android:gravity="center_horizontal"
+         >
+         
+        <TextView 
+            android:id="@+id/yearOfMfrLbl"
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content"
+            android:textSize="18sp" 
+            android:gravity="left"
+            android:text="Year Of Manufature :"
+            android:layout_span="1"
+            android:padding="18dip"
+            />
+        
+        <TextView 
+            android:id="@+id/yearOfMfrValue"
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content"
+            android:textSize="18sp" 
+            android:gravity="right"  
+            android:layout_span="1"
+            android:padding="18dip"
+            />
+    </TableRow>
+
+    <TableRow
+         android:layout_height="wrap_content"
+         android:layout_width="fill_parent"
+         android:gravity="center_horizontal"
+         >
+         
+        <TextView 
+            android:id="@+id/carLbl"
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content"
+            android:textSize="18sp" 
+            android:gravity="left"
+            android:text="Car Model : "
+            android:layout_span="1"
+            android:padding="18dip"
+            />
+        
+        <TextView 
+            android:id="@+id/carValue"
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content"
+            android:textSize="18sp" 
+            android:gravity="right"
+            android:layout_span="1"
+            android:padding="18dip"
+            />
+        
+        
+    </TableRow>
+    
+    
+    <TableRow
+         android:layout_height="wrap_content"
+         android:layout_width="fill_parent"
+         android:gravity="center_horizontal"
+         >
+         
+        <TextView 
+            android:id="@+id/mileageLbl"
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content"
+            android:textSize="18sp" 
+            android:gravity="left"
+            android:text="Mileage : "
+            android:layout_span="1"
+            android:padding="18dip"
+            />
+        
+        <TextView 
+            android:id="@+id/mileageValue"
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content"
+            android:textSize="18sp" 
+            android:gravity="right"
+            android:layout_span="1"
+            android:padding="18dip"
+            />
+        
+        
+    </TableRow>
+    
+    <TableRow
+         android:layout_height="wrap_content"
+         android:layout_width="fill_parent"
+         android:gravity="center_horizontal"
+         >
+         
+        <TextView 
+            android:id="@+id/locLbl"
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content"
+            android:textSize="18sp" 
+            android:gravity="left"
+            android:text="Location : "
+            android:layout_span="1"
+            android:padding="18dip"
+            />
+        
+        <TextView 
+            android:id="@+id/locValue"
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content"
+            android:textSize="18sp" 
+            android:gravity="right"
+            android:layout_span="1"
+            android:padding="18dip"
+            />
+        
+        
+    </TableRow>
+    
+    <TableRow
+         android:layout_height="wrap_content"
+         android:layout_width="fill_parent"
+         android:gravity="center_horizontal"
+         >
+         
+        <TextView 
+            android:id="@+id/priceLbl"
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content"
+            android:textSize="18sp" 
+            android:gravity="left"
+            android:text="Price : "
+            android:layout_span="1"
+            android:padding="18dip"
+            />
+        
+        <TextView 
+            android:id="@+id/priceValue"
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content"
+            android:textSize="18sp" 
+            android:gravity="right"  
+            android:layout_span="1"
+            android:padding="18dip"
+            />
+    </TableRow>
+    
+    <TableRow
+         android:layout_height="wrap_content"
+         android:layout_width="fill_parent"
+         android:gravity="center_horizontal"
+         >
+         
+        <Button 
+            android:id="@+id/btnBuy"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="BUY"
+            android:gravity="center"
+            />        
+            
+        <Button 
+            android:id="@+id/btnCancel"
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content"
+            android:text="CANCEL"
+            android:gravity="center"
+            />
+        
+        
+    </TableRow>
+    
+    
+</TableLayout>

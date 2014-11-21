@@ -1,0 +1,54 @@
+Project Functionality
+
+1. Distance on MainActivity is meant to show the distance covered by calculating difference between longitude and latitude.
+2. Time on MainActivity is meant to show duration for the distance covered.
+3. Start Button to start walking/running and catch the starting location
+4. Stop Button to stop walking and catch end location
+5. Step detection
+6. calculate calories burned
+7. show history (Bar Graph)
+8. Notify user about his performance (for taking static value)    
+9. Maintain data in SQLite
+
+ Accomplished Task											Time
+
+1. Splash Screen											1/2 hr
+2. Implementing styles	for splash screen								1 hr
+3. Downloading,integrating and using new typeface under assets						1/2 hr
+4. Downloading color palette to be used as background for splash screen					1/2 hr
+5. Making splash screen presentable 
+6. Reading about how to check for Location is On/OFF							2 hr
+7. Code to check whether Location is On. If No, then call ACTION_LOCATION_SOURCE_SETTINGS 		2 hr
+	to enable location
+8. Fucntionality Achieved										
+6. Reading how to install and use Google Play Services for using Fused Location Provider API's		2 hr	
+7. Install packages required for google play services							1 hr
+8. Install Google Play Services SDK									1 hr
+9. Set up project that uses google play services							1 hr
+10. Reading about using Fused Location Provider classes and functions					1 hr
+11. Wrote classes and functions to use API's								1 hr
+12. First created a seperate class to handle location related operation					1 hr
+    and call this class through intent	- (Wrong logic)		
+13. Changed code as MainActivity class will only include all operations					2 hr
+     because no new activity is launched when Start Button is pressed 
+14. Big issue of Couldn't handle android.intent.package_ADDED, REMOVED, REPLACED			4 hr
+	error in logcat
+15. Searchng for the issue (Problem: App didn't crashed but didn't launched and 
+	required manually to go in menu and run it. Logcat blocked)
+16.  Problem still exists
+17. wrote the logic to get location in TextView. Send longitude and latitude using Emulator Control.    1 hr
+18. Creating database with fields Latitude, Longtude and Time
+19. Writing Helper class to implement database related operations					2 hr
+20. Action on Stop button (storing in DB, calculating distance,time,calories)				2 days
+21. Step Detection											5 hr
+22. Sending notification if calories less than 50000.00 (Not rounded)					1 hr
+23. Showing graph for a week										1 day
+
+Tasks Not accomplished
+
+1. Storing calories,steps,date in Userprofile table(Some errors were showing)
+2. Create an activity for user profile where user entered his age and weight
+3. Show graph on values from database, but as Userprofile table was not created unable to take dynamic data.
+4. Polished UI
+
+

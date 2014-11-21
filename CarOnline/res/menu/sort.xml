@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/sortByPrice"
+        android:orderInCategory="1"
+        android:showAsAction="never"
+        android:title="@string/sortByPrice"
+        />
+
+    <item
+        android:id="@+id/sortByCar"
+        android:orderInCategory="2"
+        android:showAsAction="never"
+        android:title="@string/sortByCar"
+        />
+</menu>

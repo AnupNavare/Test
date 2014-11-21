@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <TextView
+        android:id="@+id/carModelLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="14dp"
+        android:text="Car  :"
+       
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+	<TextView
+        android:id="@+id/carModelTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="68dp"
+        android:layout_marginTop="14dp"
+        android:layout_toRightOf="@id/carModelLbl"
+       
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	 <TextView
+        android:id="@+id/yearOfMfrLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/carModelLbl"
+        android:layout_marginLeft="18dp"
+        android:text="Year of Mfr  :"
+       
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+    <TextView
+        android:id="@+id/yearOfMfrTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/carModelTitle"
+        android:layout_below="@id/carModelTitle"
+        android:layout_toRightOf="@id/yearOfMfrLbl"
+       	android:layout_marginLeft="68dp"
+        
+        
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/priceLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/yearOfMfrLbl"
+        android:text="Price  :"
+        android:layout_marginLeft="18dp"
+       
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+    
+    
+    <TextView
+        android:id="@+id/priceTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/yearOfMfrTitle"
+        android:layout_below="@id/yearOfMfrTitle"
+        android:layout_toRightOf="@id/priceLbl"
+        
+    	android:textAppearance="?android:attr/textAppearanceMedium" />
+</RelativeLayout>

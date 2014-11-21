@@ -1,0 +1,31 @@
+							HomeWork - Space
+
+Problem :: Given a URL build an application to get data from URL and show it in a listview. Application should give user facility to view list sorted by title, oldest date and latest date.
+
+
+							Supported Android Version
+
+1. Minimum SDK Version :: 9
+2. Target SDK Version :: 18
+3. Supports large and small screens
+4. Supports devices having any screen density
+
+							Permissions Required
+
+<uses-permission android:name="android.permission.INTERNET"/>
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+							Tasks Accomplished
+1. Getting data from URL given - Accomplished by parsing json using Apache HttpClient. Library used - org.apache.http.
+2. Showing data in list - Listview having customized list row  and simple adapter to map data to list. Select row to get highlightened.
+3. Sorting options by title, oldest date and latest date - Sorting options specified in overflow menu.
+4. Sorting by different attributes - Achieved by comparator taking different attributes.
+
+							Shortcomings
+1. As we get data from network it takes time. Progress Dialog shown to indicate user that process is going. AsyncTask used to avoid blocking of UI Thread.
+
+							Bugs
+No Bugs - App running smoothly on my side.
+
+
+ 

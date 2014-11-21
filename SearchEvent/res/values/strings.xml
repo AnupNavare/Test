@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SearchEvent</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="txtViewLbl">Enter City</string>
+    <string name="searchBtn">Search</string>
+    <string name="eventIdLbl">EventId</string>
+	<string name="eventnameLbl">EventName</string>
+	<string name="backBtn">Back</string>
+</resources>

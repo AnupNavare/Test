@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PhotoNotes</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="search_action">Search PhotoNotes</string>
+    <string name="refresh">Refresh</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="addphoto_activity">Capture Photo</string>
+    <string name="imagePreview_addPhotoA">Preview</string>
+	<string name="CapturePhoto_addPhotoA">Capture Photo</string>
+	<string name="SavePhoto_addPhotoA">Save</string>
+	<string name="SelectedPhoto">Selected Photo</string>
+	<string name="viewphoto_activity">Selected Photo</string>
+</resources>

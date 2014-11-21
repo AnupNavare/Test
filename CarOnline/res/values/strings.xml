@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CarOnline</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="spinner_title">Select Location</string>
+    <string name="button_title">Find Cars</string>
+    <string name="sortByPrice">Sort by Price</string>
+	<string name="sortByCar">Sort by Car Name</string>
+</resources>

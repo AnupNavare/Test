@@ -1,0 +1,222 @@
+{
+  "cars": [
+    {
+      "year_of_mfr" : 2009,
+      "car_model" : "ford fiesta",
+      "mileage" : 14000,
+      "location" : "mountain view",
+      "price" : 20000
+    },
+    {
+      "year_of_mfr" : 2013,
+      "car_model" : "ford focus",
+      "mileage" : 7000,
+      "location" : "milipitas",
+      "price" : 28000
+    },
+    {
+      "year_of_mfr" : 2010,
+      "car_model" : "merc C-class",
+      "mileage" : 10000,
+      "location" : "mountain view",
+      "price" : 30000
+    },
+    {
+      "year_of_mfr" : 2005,
+      "car_model" : "merc CL-class",
+      "mileage" : 42000,
+      "location" : "santa clara",
+      "price" : 20000
+    },
+    {
+      "year_of_mfr" : 2013,
+      "car_model" : "audi a5",
+      "mileage" : 11000,
+      "location" : "mountain view",
+      "price" : 29000
+    },
+    {
+      "year_of_mfr" : 2001,
+      "car_model" : "land cruiser premium",
+      "mileage" : 47000,
+      "location" : "santa clara",
+      "price" : 11000
+    },
+    {
+      "year_of_mfr" : 2012,
+      "car_model" : "merc GLK class",
+      "mileage" : 9000,
+      "location" : "milipitas",
+      "price" : 47000
+    },
+    {
+      "year_of_mfr" : 2012,
+      "car_model" : "chevrolet camaroon",
+      "mileage" : 12000,
+      "location" : "santa clara",
+      "price" : 24000
+    },
+    {
+      "year_of_mfr" : 2009,
+      "car_model" : "ford fiesta",
+      "mileage" : 18000,
+      "location" : "mountain view",
+      "price" : 10000
+    },
+    {
+      "year_of_mfr" : 2013,
+      "car_model" : "volvo xc90",
+      "mileage" : 5000,
+      "location" : "milipitas",
+      "price" : 20000
+    },
+    {
+      "year_of_mfr" : 2009,
+      "car_model" : "volvo c30",
+      "mileage" : 13000,
+      "location" : "mountain view",
+      "price" : 29000
+    },
+    {
+      "year_of_mfr" : 2005,
+      "car_model" : "merc E class",
+      "mileage" : 10000,
+      "location" : "santa clara",
+      "price" : 20000
+    },
+    {
+      "year_of_mfr" : 2001,
+      "car_model" : "ford trevio",
+      "mileage" : 20000,
+      "location" : "milipitas",
+      "price" : 20000
+    },
+    {
+      "year_of_mfr" : 2011,
+      "car_model" : "volvo c30",
+      "mileage" : 10000,
+      "location" : "santa clara",
+      "price" : 32000
+    },
+    {
+      "year_of_mfr" : 2011,
+      "car_model" : "ford mustang",
+      "mileage" : 18000,
+      "location" : "santa clara",
+      "price" : 36000
+    },
+    {
+      "year_of_mfr" : 2013,
+      "car_model" : "honda accord",
+      "mileage" : 14000,
+      "location" : "mountain view",
+      "price" : 25000
+    },
+    {
+      "year_of_mfr" : 2003,
+      "car_model" : "honda accord",
+      "mileage" : 19000,
+      "location" : "milipitas",
+      "price" : 10000
+    },
+    {
+      "year_of_mfr" : 2013,
+      "car_model" : "honda civic",
+      "mileage" : 14000,
+      "location" : "mountain view",
+      "price" : 24000
+    },
+    {
+      "year_of_mfr" : 2009,
+      "car_model" : "ford fiesta",
+      "mileage" : 14000,
+      "location" : "santa clara",
+      "price" : 20000
+    },
+    {
+      "year_of_mfr" : 2002,
+      "car_model" : "ford mustang",
+      "mileage" : 14000,
+      "location" : "milipitas",
+      "price" : 19000
+    },
+    {
+      "year_of_mfr" : 2012,
+      "car_model" : "audi A6",
+      "mileage" : 20000,
+      "location" : "mountain view",
+      "price" : 44000
+    },
+    {
+      "year_of_mfr" : 2012,
+      "car_model" : "lexus s360",
+      "mileage" : 10000,
+      "location" : "santa clara",
+      "price" : 20000
+    },
+    {
+      "year_of_mfr" : 2008,
+      "car_model" : "merc E class",
+      "mileage" : 20000,
+      "location" : "milipitas",
+      "price" : 32000
+    },
+    {
+      "year_of_mfr" : 2011,
+      "car_model" : "chevrolet cameroon",
+      "mileage" : 11000,
+      "location" : "mountain view",
+      "price" : 28000
+    },
+    {
+      "year_of_mfr" : 2013,
+      "car_model" : "nissan centra",
+      "mileage" : 14000,
+      "location" : "mountain view",
+      "price" : 20000
+    },
+    {
+      "year_of_mfr" : 2009,
+      "car_model" : "honda crv",
+      "mileage" : 21000,
+      "location" : "santa clara",
+      "price" : 21000
+    },
+    {
+      "year_of_mfr" : 2010,
+      "car_model" : "audi A5",
+      "mileage" : 4000,
+      "location" : "santa clara",
+      "price" : 39000
+      
+    },
+    {
+      "year_of_mfr" : 2009,
+      "car_model" : "ford fiesta",
+      "mileage" : 14000,
+      "location" : "mountain view",
+      "price" : 21000
+    },
+    {
+      "year_of_mfr" : 2007,
+      "car_model" : "honda crv",
+      "mileage" : 34000,
+      "location" : "milipitas",
+      "price" : 13000
+    },
+    {
+      "year_of_mfr" : 2014,
+      "car_model" : "merc E class",
+      "mileage" : 500,
+      "location" : "mountain view",
+      "price" : 56000
+    },
+    {
+      "year_of_mfr" : 2009,
+      "car_model" : "ford mustang",
+      "mileage" : 12000,
+      "location" : "santa clara",
+      "price" : 32000
+    }
+    ]
+}
