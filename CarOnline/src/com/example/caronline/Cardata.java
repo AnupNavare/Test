@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
+//Class for info of the car
 public class Cardata {
 
 	private long id;
