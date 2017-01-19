@@ -1,7 +1,7 @@
 package random;
 
 public class GrayCodeProgram {
-
+//This is for Amazon test
 	public boolean isGray(int n, int m) {
 		int xor = (n ^ m);
 
